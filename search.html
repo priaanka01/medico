@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Medications</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Doctor Prescription Info</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="search.html">Search Medications</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="search-section">
+            <h2>Search for Medications</h2>
+            <input type="text" id="medication-search" placeholder="Enter medication name">
+            <button onclick="searchMedication()">Search</button>
+        </section>
+
+        <section id="medication-info">
+            <!-- Medication details will be displayed here after search -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Doctor Prescription Info. All rights reserved.</p>
+    </footer>
+</body>
+</html>
