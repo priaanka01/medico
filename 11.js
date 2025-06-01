@@ -4,7 +4,6 @@ import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import Home from "./home";
 import Profile from "./profile";
 import ContactUs from "./contactus";
-
 function App() {
   return (
     <Router>
@@ -16,7 +15,6 @@ function App() {
             <li><Link to="/contactus">Contact Us</Link></li>
           </ul>
         </nav>
-
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/profile" element={<Profile />} />
@@ -33,7 +31,6 @@ import React from "react";
 const ContactUs = () => {
     return <h1>CMRIT, Kandlakoya Village, Medchal, Hyderabad</h1>;
   };
-  
   export default ContactUs;
 
 //home.js//
@@ -41,7 +38,6 @@ import React from "react";
 const Home = () => {
     return <h1>Welcome to CMRIT Home Page</h1>;
   };
-  
   export default Home;
 
 //layout.js//
@@ -67,7 +63,6 @@ const Layout = () => {
     </>
   );
 };
-
 export default Layout;
 
 //profile.js//
@@ -80,6 +75,5 @@ const Profile = () => {
       </>
     );
   };
-  
   export default Profile;
   
